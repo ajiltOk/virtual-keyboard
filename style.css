@@ -32,6 +32,11 @@
   transition: 0.3s; 
 }
 
+.item:active {
+  background-color: #00FF7F;
+  transition: 0.3s;
+}
+
 .backspace {
   width: 113px; 
 }
@@ -60,10 +65,20 @@
   width: 369px;
 }
 
-.symbol {
+.symbol,
+.eng-little,
+.ru-little,
+.ru-big,
+.eng-big,
+.eng-caps,
+.ru-caps {
   color: #fff;
 }
 
 .active {
   background-color: #00FF7F;
+}
+
+.hidden {
+  display: none;
 }
